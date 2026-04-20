@@ -1,0 +1,18 @@
+{
+  "name": "종합_plate1-9_복구_필라멘트",
+  "filament_settings_id": [
+    "종합_plate1-9_복구_필라멘트"
+  ],
+  "from": "User",
+  "inherits": "Bambu PLA Silk @BBL X1C",
+  "version": "2.3.0.5",
+  "additional_cooling_fan_speed": [
+    "0"
+  ],
+  "nozzle_temperature": [
+    "210"
+  ],
+  "nozzle_temperature_initial_layer": [
+    "210"
+  ]
+}

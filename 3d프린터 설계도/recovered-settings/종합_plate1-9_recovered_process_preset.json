@@ -1,0 +1,94 @@
+{
+  "name": "종합_plate1-9_복구_프로세스",
+  "print_settings_id": "종합_plate1-9_복구_프로세스",
+  "from": "User",
+  "inherits": "0.08mm Extra Fine @BBL X1C",
+  "version": "2.3.0.5",
+  "bottom_surface_pattern": "zig-zag",
+  "default_acceleration": [
+    "4000",
+    "10000"
+  ],
+  "detect_thin_wall": "1",
+  "embedding_wall_into_infill": "1",
+  "enable_support": "1",
+  "gap_infill_speed": [
+    "50",
+    "350"
+  ],
+  "independent_support_layer_height": "0",
+  "initial_layer_acceleration": [
+    "300",
+    "500"
+  ],
+  "initial_layer_infill_speed": [
+    "50",
+    "105"
+  ],
+  "initial_layer_travel_acceleration": [
+    "3000",
+    "6000"
+  ],
+  "inner_wall_speed": [
+    "50",
+    "350"
+  ],
+  "internal_solid_infill_speed": [
+    "50",
+    "350"
+  ],
+  "outer_wall_acceleration": [
+    "2000",
+    "5000"
+  ],
+  "outer_wall_speed": [
+    "50",
+    "200"
+  ],
+  "overhang_1_4_speed": [
+    "40",
+    "60"
+  ],
+  "overhang_2_4_speed": [
+    "20",
+    "30"
+  ],
+  "raft_layers": "3",
+  "skeleton_infill_density": "70%",
+  "skin_infill_density": "70%",
+  "sparse_infill_density": "70%",
+  "sparse_infill_speed": [
+    "50",
+    "450"
+  ],
+  "support_critical_regions_only": "1",
+  "support_interface_spacing": "0",
+  "support_interface_speed": [
+    "50",
+    "80"
+  ],
+  "support_interface_top_layers": "3",
+  "support_on_build_plate_only": "1",
+  "support_speed": [
+    "50",
+    "150"
+  ],
+  "top_surface_acceleration": [
+    "1500",
+    "2000"
+  ],
+  "top_surface_pattern": "zig-zag",
+  "top_surface_speed": [
+    "50",
+    "200"
+  ],
+  "travel_acceleration": [
+    "4000",
+    "10000"
+  ],
+  "travel_speed": [
+    "300",
+    "500"
+  ],
+  "wall_loops": "4"
+}

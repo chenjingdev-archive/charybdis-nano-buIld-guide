@@ -1,0 +1,145 @@
+{
+  "source_project": "/Users/chenjing/dev/카리브디스/3d프린터 설계도/종합.3mf",
+  "printer": "Bambu Lab P1S",
+  "printer_preset": "Bambu Lab P1S 0.4 nozzle",
+  "bed_type": "Textured PEI Plate",
+  "nozzle_diameter_mm": "0.4",
+  "base_process_profile": "0.08mm Extra Fine @BBL X1C",
+  "used_filament_profile_extruder_1": "Bambu PLA Silk @BBL X1C",
+  "layer_height_mm": "0.08",
+  "initial_layer_height_mm": "0.2",
+  "wall_loops": "4",
+  "top_shell_layers": "9",
+  "bottom_shell_layers": "7",
+  "infill_density": "70%",
+  "infill_pattern": "grid",
+  "support": {
+    "enabled": "1",
+    "type": "tree(auto)",
+    "style": "default",
+    "threshold_angle": "15",
+    "build_plate_only": "1",
+    "critical_regions_only": "1",
+    "interface_top_layers": "3",
+    "interface_spacing": "0",
+    "raft_layers": "3"
+  },
+  "adhesion": {
+    "brim_type": "auto_brim",
+    "brim_width_mm": "5"
+  },
+  "speed": {
+    "outer_wall": [
+      "50",
+      "200"
+    ],
+    "inner_wall": [
+      "50",
+      "350"
+    ],
+    "top_surface": [
+      "50",
+      "200"
+    ],
+    "sparse_infill": [
+      "50",
+      "450"
+    ],
+    "support": [
+      "50",
+      "150"
+    ],
+    "support_interface": [
+      "50",
+      "80"
+    ],
+    "travel": [
+      "300",
+      "500"
+    ]
+  },
+  "acceleration": {
+    "default": [
+      "4000",
+      "10000"
+    ],
+    "outer_wall": [
+      "2000",
+      "5000"
+    ],
+    "top_surface": [
+      "1500",
+      "2000"
+    ],
+    "initial_layer": [
+      "300",
+      "500"
+    ],
+    "travel": [
+      "4000",
+      "10000"
+    ],
+    "initial_layer_travel": [
+      "3000",
+      "6000"
+    ]
+  },
+  "line_width": {
+    "initial_layer": "0.5",
+    "default": "0.42",
+    "outer_wall": "0.42",
+    "inner_wall": "0.45",
+    "top_surface": "0.42",
+    "support": "0.42"
+  },
+  "temperature_effective_extruder_1": {
+    "nozzle": "210",
+    "nozzle_initial_layer": "210",
+    "textured_plate": "55",
+    "textured_plate_initial_layer": "55",
+    "fan_min": "100",
+    "fan_max": "100",
+    "additional_cooling_fan": "0"
+  },
+  "process_override_keys": [
+    "bottom_surface_pattern",
+    "default_acceleration",
+    "detect_thin_wall",
+    "embedding_wall_into_infill",
+    "enable_support",
+    "gap_infill_speed",
+    "independent_support_layer_height",
+    "initial_layer_acceleration",
+    "initial_layer_infill_speed",
+    "initial_layer_travel_acceleration",
+    "inner_wall_speed",
+    "internal_solid_infill_speed",
+    "outer_wall_acceleration",
+    "outer_wall_speed",
+    "overhang_1_4_speed",
+    "overhang_2_4_speed",
+    "raft_layers",
+    "skeleton_infill_density",
+    "skin_infill_density",
+    "sparse_infill_density",
+    "sparse_infill_speed",
+    "support_critical_regions_only",
+    "support_interface_spacing",
+    "support_interface_speed",
+    "support_interface_top_layers",
+    "support_on_build_plate_only",
+    "support_speed",
+    "top_surface_acceleration",
+    "top_surface_pattern",
+    "top_surface_speed",
+    "travel_acceleration",
+    "travel_speed",
+    "wall_loops"
+  ],
+  "filament_override_keys": [
+    "additional_cooling_fan_speed",
+    "nozzle_temperature",
+    "nozzle_temperature_initial_layer"
+  ],
+  "note": "프로젝트(종합.3mf)에 저장된 project_settings.config 기준 복구. 클라우드 출력기록 세부 옵션(예: 출력 직전 체크박스)은 별도 보장되지 않음."
+}

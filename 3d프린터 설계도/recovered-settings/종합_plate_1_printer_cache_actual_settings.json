@@ -1,0 +1,72 @@
+{
+  "source": {
+    "printer_cache_3mf": "/tmp/bambu_recover/plate1.3mf",
+    "printer_cache_gcode": "/tmp/bambu_recover/plate1.gcode",
+    "bambu_studio_conf": "/Users/chenjing/Library/Application Support/BambuStudio/BambuStudio.conf",
+    "original_remote_files": [
+      "ftps://192.168.0.6/cache/종합_plate_1.3mf",
+      "ftps://192.168.0.6/cache/종합_plate_1_plate_1.gcode"
+    ]
+  },
+  "identity": {
+    "project_name": "종합_plate_1",
+    "plate_name": "Plate 1",
+    "printer_model": "Bambu Lab P1S",
+    "printer_preset": "Bambu Lab P1S 0.4 nozzle",
+    "build_plate": "Textured PEI Plate"
+  },
+  "plate_slice_info": {
+    "weight_g": "79.69",
+    "filament_type": "PETG",
+    "tray_info_idx": "GFG01",
+    "estimated_seconds": "33329",
+    "support_used": "true",
+    "slot_from_local_ams_mapping": "A4",
+    "plate_bbox": [
+      64.01439,
+      67.57145,
+      191.98489,
+      188.42859
+    ],
+    "first_extruder_index": 2
+  },
+  "actual_settings_from_gcode": {
+    "print_settings_id": "카리브디스권장설정",
+    "layer_height": "0.15",
+    "initial_layer_print_height": "0.15",
+    "curr_bed_type": "Textured PEI Plate",
+    "filament_settings_id": "\"Bambu PLA Silk @BBL X1C\";\"Bambu PLA Wood @BBL X1C\";\"Bambu PETG Translucent @BBL X1C\";\"Bambu PETG HF @BBL P1S 0.4 nozzle\";\"Bambu TPU 95A HF @BBL P1S\"",
+    "filament_type": "PLA;PLA;PETG;PETG;TPU",
+    "filament_ids": "GFA05;GFA16;GFG01;GFG02;GFU00",
+    "nozzle_temperature": "210,220,245,245,230",
+    "nozzle_temperature_initial_layer": "210,220,250,230,230",
+    "support_type": "normal(auto)",
+    "support_style": "grid",
+    "support_threshold_angle": "50",
+    "fuzzy_skin": "none",
+    "fuzzy_skin_point_distance": "0.8",
+    "fuzzy_skin_thickness": "1",
+    "different_settings_to_system": "brim_type;default_acceleration;enable_support;fuzzy_skin_thickness;gap_infill_speed;independent_support_layer_height;initial_layer_infill_speed;initial_layer_line_width;initial_layer_print_height;initial_layer_speed;inner_wall_line_width;inner_wall_speed;internal_solid_infill_speed;layer_height;outer_wall_speed;overhang_1_4_speed;overhang_2_4_speed;overhang_3_4_speed;raft_first_layer_expansion;skeleton_infill_density;skeleton_infill_line_width;skin_infill_density;skin_infill_line_width;sparse_infill_density;sparse_infill_line_width;sparse_infill_speed;support_base_pattern;support_bottom_z_distance;support_critical_regions_only;support_interface_bottom_layers;support_interface_spacing;support_interface_speed;support_interface_top_layers;support_object_xy_distance;support_on_build_plate_only;support_remove_small_overhang;support_speed;support_style;support_threshold_angle;support_top_z_distance;support_type;top_surface_speed;wall_loops;additional_cooling_fan_speed;nozzle_temperature;nozzle_temperature_initial_layer;;;;;",
+    "total_filament_weight_g": "79.69"
+  },
+  "actual_settings_from_printer_cache_3mf": {
+    "print_settings_id": "카리브디스권장설정",
+    "layer_height": "0.15",
+    "initial_layer_print_height": "0.15",
+    "curr_bed_type": "Textured PEI Plate",
+    "fuzzy_skin": "none",
+    "fuzzy_skin_point_distance": "0.8",
+    "fuzzy_skin_thickness": "1",
+    "support_type": "normal(auto)",
+    "support_style": "grid",
+    "support_threshold_angle": "50"
+  },
+  "conclusion": {
+    "previous_recovery_from_current_project_was_wrong": true,
+    "reason": "현재 저장된 종합.3mf가 아니라 프린터 cache에 남아 있던 실제 출력용 plate_1 파일 기준으로 봐야 함.",
+    "petg_confirmed": true,
+    "a4_slot_inferred": true,
+    "fuzzy_skin_confirmed_on_actual_plate1_gcode": "none",
+    "note": "plate_1 실제 gcode/header 기준으로는 fuzzy_skin=none, fuzzy_skin_thickness=1 이 남아 있음. 즉 퍼지 관련 숫자값은 있었지만 actual plate_1 gcode에서 활성 모드는 none으로 기록됨."
+  }
+}
